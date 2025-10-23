@@ -1,0 +1,440 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #5B5D67;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+
+.Halaman-1 {
+    width: 100%; 
+
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    overflow: hidden; 
+
+    min-height: 100vh;
+    background-color: #5b5b5b;
+    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+
+.Halaman-1 img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.img1-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 3;
+
+
+}
+
+
+.img-hitbox {
+    position: absolute;
+    z-index: 4; 
+    width: 400px;  
+    height: 600px; 
+    
+    
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+
+    
+}
+
+.img-hitbox:hover ~ .img1-2 {
+    filter: brightness(0.8)
+            drop-shadow(0 0 10px rgba(255, 255, 255, 0.8))
+            drop-shadow(0 0 20px rgba(255, 255, 255, 0.6))
+            drop-shadow(0 0 30px rgba(255, 255, 255, 0.4))
+            drop-shadow(0 0 40px rgba(255, 255, 255, 0.2));
+}
+
+.segitiga-1 {
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(0deg, rgb(27, 26, 26), #5B5D67);
+    clip-path: polygon(100% 0%, 0% 0%, 0% 75%);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+}
+
+.segitiga-2 {
+    width: 100%;
+    height: 85%;
+    background: linear-gradient(90deg, rgba(50, 51, 55, 1), rgba(121, 125, 134, 01));
+    clip-path: polygon(0% 70%, 100% 40%, 100% 100%, 0% 100%);
+    position: absolute;
+    object-fit: cover;
+    top: 15%;
+    left: 0%;
+    overflow: hidden;
+    z-index: 4;
+
+}
+
+.venom {
+    width: 50%;
+    height: 50%;
+    top: 63%;
+    left: 50%;
+    position: absolute;
+    display: flex;         
+    z-index: 2;
+    filter: brightness(1.2);
+
+    transition: filter 0.3s ease;
+
+}
+
+
+.venom:hover {
+     filter: brightness(1.5)
+            drop-shadow(0 0 10px rgba(65, 65, 65, 0.8))
+            drop-shadow(0 0 20px rgba(57, 60, 66, 0.6))
+            drop-shadow(0 0 30px rgba(71, 77, 93, 0.4))
+            drop-shadow(0 0 40px rgba(0, 0, 0, 0.2));
+}
+
+
+.garis-desain {
+    position: absolute;
+    top: 74.5%;
+    left: 0;
+    width: 100%;
+    height: 0; 
+    border-top-width: 1px;        
+    border-top-style: solid;      
+    border-top-color: #8C8C8C;    
+    transform: rotate(-67.62deg);
+    transform-origin: top left; 
+    opacity: 1; 
+    z-index: 3;
+}
+
+
+.teks-porto {
+    position: absolute;
+    top: 40%;
+    left: 7vw;
+    
+    transform: rotate(-67.5deg);
+    transform-origin: top left; 
+
+    width: 722px;
+    height: 91px;
+
+    font-family: 'Designer', sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: normal;
+    color: #8C9099;
+
+    z-index: 5; 
+
+    transition: transform 0.1s ease,
+}
+
+.teks-art {
+    position: absolute;
+    top: 60%;
+    left: 3vw;
+    
+    
+    transform-origin: top left; 
+    width: 722px;
+    height: 91px;
+    font-family: 'Designer', sans-serif;
+    font-weight: 400;
+    
+    
+    font-size: clamp(50px, 5vw, 60px);
+
+    line-height: normal;
+    color: #393a41;
+    z-index: 5; 
+
+    
+    transition: transform 0.1s ease,
+                font-size 0.1s ease;
+}
+
+
+.teks-nama {
+    position: absolute;
+    top: 51.5%;
+    left: 60vw;
+    
+    transform-origin: top left; 
+
+    width: 720px;
+    height: 91px;
+
+    font-family: 'Designer', sans-serif;
+    font-weight: 400;
+    font-size: clamp(40px, 5vw, 60px);
+    line-height: normal;
+    color: #b6bac6;
+
+    z-index: 6; 
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+.teks-biasa {
+    position: absolute;
+    top: 78.8%;
+    left: 3vw;
+    
+    
+    transform-origin: top left; 
+    width: 722px;
+    height: 91px;
+    font-family: 'Designer', sans-serif;
+    font-weight: 400;
+    
+    
+    font-size: clamp(40px, 5vw, 60px);
+
+    line-height: normal;
+    color: #393a41;
+    z-index: 6; 
+
+    
+    transition: transform 0.1s ease,
+                font-size 0.1s ease;
+}
+
+.teks-biasa2 {
+    position: absolute;
+    top: 85%;
+    left: 2vw;
+    
+    
+    transform-origin: top left; 
+    width: 722px;
+    height: 91px;
+    font-family: 'Designer', sans-serif;
+    font-weight: 400;
+    
+    
+    font-size: clamp(35px, 5vw, 60px);
+
+    line-height: normal;
+    color: #393a41;
+    z-index: 7; 
+
+    
+    transition: transform 0.1s ease,
+                font-size 0.1s ease;
+}
+
+.teks-biasa3 {
+    position: absolute;
+    top: 90.8%;
+    left: 1vw;
+    
+    
+    transform-origin: top left; 
+    width: 722px;
+    font-family: 'Designer', sans-serif;
+    font-weight: 400;
+    
+    
+    font-size: clamp(30px, 5vw, 60px);
+
+    line-height: normal;
+    color: #b6bac6;
+    z-index: 7; 
+
+    
+    transition: transform 0.1s ease,
+                font-size 0.1s ease;
+}
+
+
+.polygon-shape0 {
+    width: 40%;
+    height: 30%;
+    background-color:rgb(211, 221, 230,0.2); 
+    clip-path: polygon(
+    0% 55%,   /* Titik 1: Kiri-Atas */
+    100% 20%,  /* Titik 2: Kanan-Atas */
+    70% 100%,  /* Titik 3: Kanan-Bawah */
+    0% 100%    /* Titik 4: Kiri-Bawah */
+  );
+    position: absolute;
+    object-fit: cover;
+    transform: rotate(0deg);
+    top: 70%;
+    left: 0%;
+    overflow: hidden;
+    z-index: 5;
+}
+
+
+.polygon-shape2 {
+    width: 40%;
+    height: 50%;
+    background-color:rgb(211, 221, 230,0.2); 
+    clip-path: polygon(
+    0% 0%,   /* Titik 1: Kiri-Atas */
+    70% 0%,  /* Titik 2: Kanan-Atas */
+    00% 100%,  /* Titik 3: Kanan-Bawah */
+    0% 100%    /* Titik 4: Kiri-Bawah */
+  );
+    position: absolute;
+    object-fit: cover;
+    transform: rotate(0deg);
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    z-index: 6;
+}
+
+
+.polygon-shape3 {
+    width: 110%;
+    height: 50%;
+    background-color:#A6AAB5; 
+    clip-path: polygon(
+    0% 55%,   /* Titik 1: Kiri-Atas */
+    100% 0%,  /* Titik 2: Kanan-Atas */
+    100% 10%,  /* Titik 3: Kanan-Bawah */
+    0% 65%    /* Titik 4: Kiri-Bawah */
+  );
+    position: absolute;
+    object-fit: cover;
+    transform: rotate(0deg);
+    top: 54%;
+    left: -5%;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.polygon-shape3-child1 {
+    width: 45%;
+    height: 50%;
+    background-color:#A6AAB5; 
+    clip-path: polygon(
+    0% 55%,   /* Titik 1: Kiri-Atas */
+    100% 33%,  /* Titik 2: Kanan-Atas */
+    90% 45%,  /* Titik 3: Kanan-Bawah */
+    0% 65%    /* Titik 4: Kiri-Bawah */
+  );
+    position: absolute;
+    object-fit: cover;
+    transform: rotate(0deg);
+    top: 60%;
+    left: -5%;
+    overflow: hidden;
+    z-index: 5;
+}
+
+
+
+.balon-ucapan {
+ 
+  background-color: #A6AAB5;
+  border: 3px solid #393a41;
+  border-radius: 20px;
+  padding: 20px;
+  width: 250px; 
+  color: #393a41;
+  font-family: Arial, sans-serif;
+  
+ 
+  position: absolute;
+  z-index: 5; 
+
+
+  top: 10%; /* Samakan dengan 'top' hitbox */
+  
+  
+  left: calc(50% + 200px + 20px);
+  
+  /* Pusatkan bubble secara vertikal */
+  transform: translateY(-50%); 
+
+  /* --- KUNCI: SEMBUNYIKAN DEFAULT --- */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+
+
+.balon-ucapan::before,
+.balon-ucapan::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+
+
+  top: 50%;
+  right: 100%; 
+  transform: translateY(-50%); 
+
+  
+  border-style: solid;
+}
+
+/* Ekor bagian border (luar, hitam) */
+.balon-ucapan::before {
+  z-index: 1;
+  /* border-width: (atas) (kanan) (bawah) (kiri) */
+  border-width: 16px 16px 16px 0;
+  border-color: transparent #393a41 transparent transparent;
+}
+
+
+.balon-ucapan::after {
+  z-index: 2;
+  /* border-width: (atas) (kanan) (bawah) (kiri) */
+  border-width: 13px 13px 13px 0;
+  border-color: transparent #A6AAB5 transparent transparent;
+  
+  /* Geser 3px ke kanan agar menutupi border hitam */
+  margin-right: -3px; 
+}
+
+
+
+.img-hitbox:hover ~ .balon-ucapan {
+  opacity: 1;
+  visibility: visible;
+}
