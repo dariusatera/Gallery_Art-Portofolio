@@ -13,9 +13,15 @@ Screenshots
 -----------
 Letakkan 3 tangkapan layar website Anda di dalam folder `gambar/` (contoh nama file: `screenshot-1.png`, `screenshot-2.png`, `screenshot-3.png`). Setelah menaruh file, README ini akan menampilkan preview otomatis.
 
-![Screenshot 1](gambar/screenshot-1.png)
-![Screenshot 2](gambar/screenshot-2.png)
-![Screenshot 3](gambar/screenshot-3.png)
+<p align="center">
+  <img width="1902" height="626" alt="image" src="sc (3).png" />
+</p>
+<p align="center">
+  <img width="1902" height="626" alt="image" src="sc (3).png" />
+</p>
+<p align="center">
+  <img width="1902" height="626" alt="image" src="sc (3).png" />
+</p>
 
 Fitur
 -----
