@@ -13,16 +13,13 @@ Screenshots
 -----------
 
 
-<p align="center">
-  <img width="1902" height="626" alt="image" src="sc (3).png" />
-</p>
-<p align="center">
-  <img width="1902" height="626" alt="image" src="sc (3).png" />
-</p>
-<p align="center">
-  <img width="1902" height="626" alt="image" src="sc (3).png" />
-</p>
+## 🖼️ Galeri Proyek
 
+Ini adalah beberapa tangkapan layar (screenshot) dari proyek saya.
+
+![Tangkapan layar 1](gambar/sc1.png)
+![Tangkapan layar 2](gambar/sc2.png)
+![Tangkapan layar 3](gambar/sc3.png)
 Fitur
 -----
 - Halaman portofolio untuk menampilkan gambar dan video.
