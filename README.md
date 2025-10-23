@@ -11,7 +11,7 @@ Gallery_Art-Portofolio adalah website portofolio sederhana untuk menampilkan kar
 
 Screenshots
 -----------
-Letakkan 3 tangkapan layar website Anda di dalam folder `gambar/` (contoh nama file: `screenshot-1.png`, `screenshot-2.png`, `screenshot-3.png`). Setelah menaruh file, README ini akan menampilkan preview otomatis.
+
 
 <p align="center">
   <img width="1902" height="626" alt="image" src="sc (3).png" />
@@ -68,17 +68,3 @@ Cara kontribusi
 3. Commit perubahan Anda: `git commit -m "Tambah fitur: ..."`
 4. Push ke branch: `git push origin fitur/nama-fitur`.
 5. Buat Pull Request.
-
-Lisensi
--------
-Tambahkan lisensi jika diperlukan (mis. MIT). Jika Anda ingin, saya bisa menambahkan file LICENSE dengan isi MIT.
-
-Kontak
-------
-Jika ada yang ingin diperbaiki atau ditambahkan, hubungi pemilik repo: @dariusatera
-
----
-Catatan singkat untuk Anda
-- Letakkan tiga tangkapan layar ke folder `gambar/` dengan nama `screenshot-1.png`, `screenshot-2.png`, `screenshot-3.png`.
-- Periksa kembali apakah `style3.cs` adalah typo — biasanya ekstensi yang benar adalah `.css`. Saya bisa memperbaikinya jika Anda mau.
-```
