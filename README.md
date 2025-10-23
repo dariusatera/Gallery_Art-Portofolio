@@ -2,6 +2,9 @@
 ```markdown
 # Gallery_Art-Portofolio
 
+link yt:
+https://youtu.be/89Cm6Wf6k74
+
 Deskripsi
 ---------
 Gallery_Art-Portofolio adalah website portofolio sederhana untuk menampilkan karya seni dan proyek. Halaman utama dibuat dengan HTML, styling menggunakan CSS dan Bootstrap, serta interaksi sederhana menggunakan JavaScript dan AOS (Animate On Scroll).
@@ -47,7 +50,7 @@ Struktur proyek (ringkasan)
 - program.js             : script JavaScript
 - style.css              : style utama
 - style2.css             : style tambahan
-- style3.cs              : kemungkinan typo — periksa apakah ini harus `style3.css`
+- style3.css              : kemungkinan typo — periksa apakah ini harus `style3.css`
 - README.md              : file ini
 
 
