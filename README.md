@@ -1,6 +1,4 @@
 # Gallery_Art-Portofolio
-```markdown
-# Gallery_Art-Portofolio
 
 link yt:
 https://youtu.be/89Cm6Wf6k74
@@ -12,14 +10,16 @@ Gallery_Art-Portofolio adalah website portofolio sederhana untuk menampilkan kar
 Screenshots
 -----------
 
-
 ## 🖼️ Galeri Proyek
 
 Ini adalah beberapa tangkapan layar (screenshot) dari proyek saya.
 
 ![Tangkapan layar 1](gambar/sc1.png)
+
 ![Tangkapan layar 2](gambar/sc2.png)
+
 ![Tangkapan layar 3](gambar/sc3.png)
+
 Fitur
 -----
 - Halaman portofolio untuk menampilkan gambar dan video.
@@ -44,19 +44,17 @@ Cara menjalankan (development)
 
 Struktur proyek (ringkasan)
 --------------------------
-- gambar/                : tempat simpan tangkapan layar & aset gambar
-- vidio/                 : tempat simpan video (catatan: penamaan folder mengikuti struktur Anda)
-- Build/                 : (opsional) hasil build bila ada
-- Porto.html             : halaman utama portofolio (jalankan dari sini)
-- halaman-2.html         : halaman tambahan
-- halaman-3.html         : halaman tambahan
-- program.js             : script JavaScript
-- style.css              : style utama
-- style2.css             : style tambahan
-- style3.css              : kemungkinan typo — periksa apakah ini harus `style3.css`
-- README.md              : file ini
-
-
+- gambar/            : tempat simpan tangkapan layar & aset gambar
+- vidio/             : tempat simpan video (catatan: penamaan folder mengikuti struktur Anda)
+- Build/             : (opsional) hasil build bila ada
+- Porto.html         : halaman utama portofolio (jalankan dari sini)
+- halaman-2.html     : halaman tambahan
+- halaman-3.html     : halaman tambahan
+- program.js         : script JavaScript
+- style.css          : style utama
+- style2.css         : style tambahan
+- style3.css         : kemungkinan typo — periksa apakah ini harus `style3.css`
+- README.md          : file ini
 
 Cara kontribusi
 ---------------
